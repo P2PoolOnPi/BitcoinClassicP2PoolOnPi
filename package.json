@@ -1,0 +1,26 @@
+{
+name: "BitcoinClassOnPi",
+version: "0.0.1",
+description: "Installs Bitcoin Classic with P2Pool on Raspberry Pi",
+scripts: {
+start: "sh setup.sh",
+test: "sh setup.sh"
+},
+repository: {
+type: "git",
+url: "git://github.com/P2PoolOnPi/BitcoinClassicP2PoolOnPi.git"
+},
+dependencies: {
+node-curl: "0.3.1"
+},
+devDependencies: {
+node-curl: "0.3.1"
+},
+keywords: [
+"bitcoin",
+"bitcoin classic"
+],
+author: "Antony Bailey (http://github.com/PartTimeLegend/)",
+license: "MIT",
+readmeFilename: "README.md"
+}
